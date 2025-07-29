@@ -44,16 +44,14 @@ export default function LeadList() {
   return (
     <>
       <div className="bg-body-secondary">
-        <div className="row">
+        <div className="row flex-column flex-md-row min-vh-100">
           <div className="col-md-3 bg-light px-5 p-4">
-            <div className="container mt-2 vh-100">
-              <h2 className=" mb-4">Anvaya CRM</h2>
-              <hr />
-              <Link className="nav-link fs-4 d-flex gap-3 " to="/">
-                <i className="bi bi-arrow-90deg-left"></i>
-                Back To Dashboard
-              </Link>
-            </div>
+            <h2 className=" mb-4">Anvaya CRM</h2>
+            <hr />
+            <Link className="nav-link fs-4 d-flex gap-3 " to="/">
+              <i className="bi bi-arrow-90deg-left"></i>
+              Back To Dashboard
+            </Link>
           </div>
           <div className="col-md-9">
             <div className=" container p-4">
